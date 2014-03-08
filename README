@@ -1,1 +1,5 @@
-A python class which implements stacked regression. Uses the sci-kit learn library.  
+Some python classes which implement "model stacking" for both classification and regression using the sci-kit learn machine learning library.
+
+Model stacking is when multiple machine learning models are trained on the same training set, and the outputs of each model are used as input to another machine learning model to improve performance over the individual models.  
+
+This code contains the classes StackedRegressor and StackedClassifier which implement the "fit" and "predict" methods similar to other sci-kit learn classes.  See the stacked examples file to see how to use these classes.
